@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://fonts/ThaleahDynamic.tres" type="DynamicFont" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Title" type="Label" parent="."]
+margin_top = 97.1153
+margin_right = 800.0
+margin_bottom = 145.115
+custom_fonts/font = ExtResource( 1 )
+text = "QUALIDADE DE SOFTWARE 
+
+e.a. 8 - TESTES DE UNIDADE"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite1" type="Label" parent="."]
+margin_left = 24.0
+margin_top = 297.508
+margin_right = 776.0
+margin_bottom = 413.508
+custom_fonts/font = ExtResource( 1 )
+text = "ALUNO: DIEGO SANTOS SEABRA
+MATRICULA: 0040251
+
+https://github.com/Dssdiego/qua_tarefa8"
+align = 2
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cite2" type="Label" parent="."]
+margin_top = 494.0
+margin_right = 800.0
+margin_bottom = 566.0
+custom_fonts/font = ExtResource( 1 )
+text = "INSTITUTO FEDERAL DE MINAS GERAIS
+CAMPUS OURO BRANCO"
+align = 1
+valign = 1
+autowrap = true
+percent_visible = -0.0222222
+__meta__ = {
+"_edit_use_anchors_": false
+}
